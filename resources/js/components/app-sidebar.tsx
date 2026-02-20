@@ -27,6 +27,11 @@ const mainNavItems: NavItem[] = [
         href: '/',
         icon: HomeIcon,
     },
+    {
+        title: 'Home',
+        href: '/',
+        icon: HomeIcon,
+    },
 ];
 
 const footerNavItems: NavItem[] = [
