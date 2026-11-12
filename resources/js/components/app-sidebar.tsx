@@ -14,7 +14,7 @@ import {
 } from '@/components/ui/sidebar';
 import type { NavItem } from '@/types';
 import AppLogo from './app-logo';
-import { dashboard } from '@/routes';
+import { dashboard, test } from '@/routes';
 
 const mainNavItems: NavItem[] = [
     {
@@ -28,8 +28,8 @@ const mainNavItems: NavItem[] = [
         icon: HomeIcon,
     },
     {
-        title: 'Home',
-        href: '/',
+        title: 'Test',
+        href: test(),
         icon: HomeIcon,
     },
 ];
